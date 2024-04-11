@@ -1,0 +1,10 @@
+button {
+  display: flex;
+  margin: 12px;
+  width: 60px;
+}
+
+.isAdmin {
+  color: red;
+  font-weight: bold;
+}

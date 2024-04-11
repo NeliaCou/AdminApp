@@ -1,0 +1,5 @@
+<h1>Hello</h1>
+
+<button type="button" (click)="changeRights()">Change admin status</button>
+<button *ngIf="haveTheRight" type="button">Edit</button>
+<button [ngClass]="{'isAdmin': haveTheRight}" type="button">view</button>
